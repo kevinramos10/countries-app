@@ -1,4 +1,4 @@
-import {redirectLogin, volver } from "./authGuard.js"
+import {redirectLogin, volver } from "/countries-app/js/authGuard.js"
 
 redirectLogin()
 

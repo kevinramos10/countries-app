@@ -1,5 +1,5 @@
-import { redirectLogin, logout } from "./authGuard.js";
-import { createCard } from "./createCard.js";
+import { redirectLogin, logout } from "/countries-app/js/authGuard.js";
+import { createCard } from "/countries-app/js/createCard.js";
 
 redirectLogin()
 
