@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/*Nunito Sans*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2d3a4a;
+}
+
+header{
+    background-color: #1a2533;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+    padding: 10px 60px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    margin: 0; 
+    color: white;
+    font-size: 20px;
+
+    button{
+        color: white;
+        font-size: 20px;
+        background-color: #2d3a4a;
+        border-radius: 20px;
+        padding: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.2s;
+        border: none;
+    }
+    button:hover{        
+        box-shadow: 0 3px 10px rgba(255, 255, 255, 0.418);
+    }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3a4a;
+    box-sizing: border-box; 
+
+    #filtros{
+        width: 100vw;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 60px; 
+
+        input{
+            width: 20rem;
+            height: 3rem;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 5px solid rgb(66, 70, 68);
+            color: black;
+            
+        }
+
+        select{
+            width: 20rem;
+            height: 3rem;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 5px solid rgb(66, 70, 68);
+            color: black;
+        }
+    }
+}
+
+#todosPaises{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+main #cardPais {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    justify-content: center;
+    margin: 8px;
+    width: 330px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.2s; 
+}
+#cardPais:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.774); 
+}
+
+div img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+div #nombrePais{
+    color: #111517;
+    font-weight: 800;
+    font-size: 21px;
+    margin-left: 7px;
+    font-family: 'Nunito Sans';
+}
+
+div p{
+    margin-left: 7px;
+    color: #6c757d;
+    font-weight: 300;
+    font-family: 'Nunito Sans';
+}
+
+div span{
+    color: #111517;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+}

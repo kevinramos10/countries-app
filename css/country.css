@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/*Nunito Sans*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    
+    background-color: #2d3a4a;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a2533;
+    padding: 24px 80px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+
+    button{
+        color: white;
+        font-size: 20px;
+        background-color: #2d3a4a;
+        border-radius: 20px;
+        padding: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.2s;
+        border: none;
+    }
+    button:hover{        
+        box-shadow: 0 3px 10px rgba(255, 255, 255, 0.418);
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    #general {
+        height: auto;
+        width: auto;
+        background-color: #1a2533;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+        #imgBandera{
+            width: 500px;
+        }
+
+        #sectDrc {
+            display: flex;
+            flex-direction: column; /* 👈 esto pone nombrePa arriba e infoGrid abajo */
+            gap: 40px;
+        
+            #nombrePa{
+                color: white; /* 👈 */
+                font-size: 50px;
+            }
+
+            #infoGrid{
+                display: flex;
+                justify-content: center;
+                gap: 70px;
+                
+                div{
+                    p{
+                        font-size: 20px;
+                        color: #a8b8cc;
+                        font-weight: 300;
+
+                        .first{
+                            color: #62b5f5;
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

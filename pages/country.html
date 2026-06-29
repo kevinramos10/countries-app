@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/country.css">
+    <title>Info Country</title>
+</head>
+<body>
+    <header>
+        <h3>Where in the world?</h3>
+
+        <button id="btnSalir">⬅ Volver</button>
+    </header>
+
+    <main>
+        <div id="general">
+            <section id="sectIzq">
+                <img id="imgBandera" src="" alt="">
+            </section>
+
+            <section id="sectDrc">
+                <h2 id="nombrePa"></h2>
+                <div id="infoGrid">
+                    <div id="colum1">
+                        <p><span class="first">Nombre nativo: </span><span id="nombreNa"></span></p>
+                        <p><span class="first">Poblacion: </span><span id="poblacion"></span></p>
+                        <p><span class="first">Region: </span><span id="region"></span></p>
+                        <p><span class="first">Sub region: </span><span id="subRegion"></span></p>
+                        <p><span class="first">Capital: </span><span id="capital"></span></p>
+                    </div>
+                    <div id="colum2">
+                        <p><span class="first">Dominio: </span><span id="dominio"></span></p>
+                        <p><span class="first">Moneda: </span><span id="moneda"></span></p>
+                        <p><span class="first">Idiomas: </span><span id="idiomas"></span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="../js/singleCountry.js"></script>
+</body>
+</html>
