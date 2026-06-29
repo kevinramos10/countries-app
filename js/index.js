@@ -4,7 +4,7 @@ import { createCard } from "./createCard.js";
 redirectLogin()
 
 async function getPaises() {
-    const response = await fetch('../data.json')
+    const response = await fetch('./data.json')
     const data = await response.json()
 
     return data
