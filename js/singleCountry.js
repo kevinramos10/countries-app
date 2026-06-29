@@ -6,7 +6,7 @@ const params = new URLSearchParams(location.search)
 const nombrePais = params.get('pais')
 
 async function render() {
-    const response = await fetch('../data.json')
+    const response = await fetch('/countries-app/data.json')
     const data = await response.json()
 
     const pais = data.find(p => p.name === nombrePais)
