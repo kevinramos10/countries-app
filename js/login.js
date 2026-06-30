@@ -14,8 +14,8 @@ btnInput.addEventListener('click', (e) => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            username: usuarioInput.value,
-            password: passwordInput.value,
+            username: usuarioInput.value.trim(),
+            password: passwordInput.value.trim(),
             expiresInMins: 30
         })
     })
