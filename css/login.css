@@ -47,6 +47,9 @@ form{
         input:focus {
             border: 1px solid #5eb8ff;
         }    
+
+        
+
     }
 
     button{
@@ -69,6 +72,10 @@ form{
         color: #ff6b6b;
         font-size: 13px;
         text-align: center;
+    }
+
+    #credenciales{
+        color: rgb(60, 243, 60);
     }
 }
 
